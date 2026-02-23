@@ -12,4 +12,23 @@ File Description:
 
 4. LICENSE	MIT License text.
 
-5. README.md	
+5. README.md
+
+Code Structure
+load_io_data() – Reads the Excel file and extracts the 171‑sector matrices (Z, x, y, S, value‑added coefficients, formal labour shares) using the exact column/row labels from the paper’s data source.
+
+compute_baseline() – Calculates A, L, total emissions, and baseline GDP.
+
+run_scenario() – Implements one recycling mechanism given a carbon price and a set of parameters. Returns the DWL‑adjusted GDP change and emission reduction.
+
+main() – Orchestrates the analysis: loads data, runs all scenarios, prints tables, and saves outputs.
+
+All parameters (elasticities, multipliers, formal sector share, deadweight loss) are clearly defined at the top of the script and can be modified by the user.
+
+License
+This code is open source under the MIT License. See LICENSE for details. If you use this code in your own research, please cite the original paper.
+
+Contact
+For questions or issues, please contact the corresponding author at [anhkiet120206@gmail.com].
+
+Note: The raw input‑output data (F3_OFFICIAL.xlsx) is the property of the General Statistics Office of Vietnam and is not redistributed here. Users must obtain it separately. The provided code assumes the file structure exactly as used in the paper; minor adjustments may be needed if the file format differs. 
