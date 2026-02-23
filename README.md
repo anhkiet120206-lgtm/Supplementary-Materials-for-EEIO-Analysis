@@ -32,3 +32,22 @@ Contact
 For questions or issues, please contact the corresponding author at [anhkiet120206@gmail.com].
 
 Note: The raw input‑output data (F3_OFFICIAL.xlsx) is the property of the General Statistics Office of Vietnam and is not redistributed here. Users must obtain it separately. The provided code assumes the file structure exactly as used in the paper; minor adjustments may be needed if the file format differs. 
+# Supplementary Materials for: "The Price of Protection: Intersectoral Leakage and Evidence of Weak Double Dividend in an Emerging Economy"
+
+**Authors:** [Your Name]  
+**Journal:** *Economic Systems Research*, 2026  
+**DOI:** [Will be assigned upon publication]
+
+## Overview
+
+This repository contains the Python code and documentation to reproduce all results, tables, and figures from the paper. The analysis uses a 171‑sector Environmentally Extended Input‑Output (EEIO) model of Vietnam to simulate carbon tax scenarios with four revenue recycling mechanisms.
+
+## Repository Contents
+
+| File | Description |
+|------|-------------|
+| `eeio_analysis.py` | Main Python script – runs all simulations and generates output tables |
+| `requirements.txt` | List of required Python packages |
+| `LICENSE` | MIT License |
+| `README.md` | This file |
+| `F3_OFFICIAL.xlsx` | **Required input data** |
